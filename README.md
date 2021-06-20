@@ -25,7 +25,7 @@ This is spin up one master and two node k8s cluster with the all the needed comp
 
 Post successful completion of the script:
 
-± You can login into the machine by running `vagrant ssh master` or ` vagrant ssh node1` and so on.
+± You can login into the machine by running `vagrant ssh master` , ` vagrant ssh node1` and so on.
 
 ## Tear Down
 
@@ -59,7 +59,7 @@ Will spin up a new cluster.
 
 ## Follow-Me
 
-:id:   [![Portfolio](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/premkumar-palanichamy)
+:id:            [![Portfolio](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/premkumar-palanichamy)
 <p align="left">
 <a href="https://linkedin.com/in/premkumarpalanichamy" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="premkumarpalanichamy" height="30" width="30" /></a>
 </p>
@@ -67,9 +67,9 @@ Will spin up a new cluster.
 
 ### ~~Reference~~
 
-Followed and credits to @pbacterio 
+Followed @pbacterio script and so credits to him :) 
 
-Made small changes to make the script to work smoothly and to run on the latest version also removed the issue in connecting the nodes with the master.
+Made small changes to make the script work smoothly and to run all the kubernetes components at its latest version. Also rectified the issue in connecting the nodes with the master automatically during creation process.
 
 - https://github.com/pbacterio/cka_lab
 

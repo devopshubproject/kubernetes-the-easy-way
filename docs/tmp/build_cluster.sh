@@ -12,6 +12,7 @@ vagrant up
 rm join.sh; touch join.sh
 
 #sleep ${SLEEP_TIME}
+
 #cluster_token=$(vagrant ssh master -c 'kubeadm token create 2>/dev/null')
 #cluster_token=(vagrant ssh master -c 'kubeadm token create 2 > /dev/null')
 cluster_token=$(vagrant ssh master -c 'kubeadm token create --print-join-command')
