@@ -71,6 +71,4 @@ Followed @pbacterio script and so credits to him :)
 
 Made small changes to make the script work smoothly and to run all the kubernetes components at its latest version. Also rectified the issue in connecting the nodes with the master automatically during creation process.
 
-- https://github.com/pbacterio/cka_lab
-
 
